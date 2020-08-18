@@ -1,0 +1,379 @@
+@charset "utf-8";
+.heads_cart_con,
+.shoppCart_con,
+.shop_buy {
+    width: 1126px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.heads_cart {
+    height: 94px;
+    border-bottom: 2px solid orangered;
+}
+
+.heads_cart_con {
+    padding-top: 26px;
+}
+
+.nav_les {
+    float: left;
+}
+
+.nav_les a:first-of-type {
+    height: 50px;
+    width: 50px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav_les ol {
+    /* height: 50px;
+width: 50px;
+overflow: hidden; */
+    position: absolute;
+    left: -50px;
+    top: 0;
+}
+
+.nav_les ol li {
+    height: 50px;
+    width: 50px;
+    background-color: #ffae00;
+    float: left;
+    transition: 1s;
+}
+
+.nav_les ol:hover li {
+    /* right: -50px; */
+    transform: translateX(50px);
+}
+
+.nav_les h2 {
+    float: left;
+    margin-left: 40px;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+.nav_les p {
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    margin-left: 14px;
+    line-height: 50px;
+}
+
+.heads_cart_con>ul {
+    float: right;
+}
+
+.heads_cart_con>ul>li {
+    float: left;
+    padding: 18px 0;
+}
+
+.heads_cart_con>ul>li>a {
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    padding: 0 8px;
+    height: 14px;
+    line-height: 14px;
+}
+
+.heads_cart_con>ul>li .heads_login {
+    width: 96px;
+    border-right: 1px solid #999999;
+}
+
+.heads_cart_con>ul>li:first-of-type {
+    position: relative;
+}
+
+.heads_cart_con>ul>li .heads_login i {
+    width: 70px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.heads_cart_con>ul>li:hover>a {
+    color: orangered;
+}
+
+.bot_list_log {
+    position: absolute;
+    top: 50px;
+    display: none;
+    width: 115px;
+    background-color: white;
+    box-shadow: 3px 0 4px 4px #999999;
+}
+
+.bot_list_log a {
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    padding: 9px 0;
+    text-align: center;
+    height: 14px;
+    line-height: 14px;
+}
+
+.heads_cart_con>ul>li:first-of-type:hover .bot_list_log {
+    display: block;
+}
+
+.bot_list_log li:hover a {
+    color: orangered;
+    background: #666666;
+}
+
+
+/* shoppCart */
+
+.shoppCart {
+    background-color: #eeeeee;
+    padding: 38px 0;
+    color: #444;
+}
+
+.shopp_title {
+    height: 18px;
+    padding: 23px 30px 23px 50px;
+    position: relative;
+    border-bottom: 1px solid #999999;
+}
+
+.shopp_title input {
+    width: 18px;
+    height: 18px;
+    margin: 0 5px 0 0;
+}
+
+.shop_select div span {
+    float: left;
+}
+
+.shop_select div span {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    float: left;
+    line-height: 18px;
+}
+
+.shop_select_list {
+    margin-top: 2px;
+    display: none;
+    background-color: #eeeeee;
+    width: 60px;
+}
+
+.shop_select div {
+    height: 18px;
+    margin-bottom: 5px;
+}
+
+.shop_select {
+    position: absolute;
+}
+
+.shop_select:hover .shop_select_list {
+    display: block;
+}
+
+.shopp_title li {
+    float: left;
+}
+
+.shopp_title li:nth-of-type(2) {
+    margin-left: 150px;
+    width: 360px;
+}
+
+.shopp_title li:nth-of-type(3) {
+    width: 135px;
+    text-align: center;
+}
+
+.shopp_title li:nth-of-type(4) {
+    width: 141px;
+    text-align: center;
+}
+
+.shopp_title li:nth-of-type(5) {
+    width: 170px;
+    text-align: center;
+}
+
+.shopp_title li:nth-of-type(6) {
+    width: 80px;
+    text-align: center;
+}
+
+.shop_cont li {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    height: 104px;
+    border-bottom: 1px solid #666666;
+}
+
+.shop_cont li input {
+    height: 18px;
+    width: 18px;
+}
+
+.shop_cont li .shop_num {
+    height: 35px;
+    width: 70px;
+}
+
+.shop_cont li>div:nth-last-of-type(1)>input[type="submit"] {
+    height: 35px;
+    width: 35px;
+}
+
+.shop_cont li>span {
+    float: left;
+}
+
+.shop_cont li>div {
+    float: left;
+}
+
+.shop_cont li>p {
+    float: left;
+    width: 360px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+.shop_cont li>div img {
+    margin-left: 55px;
+    width: 78px;
+    height: 78px;
+    background-color: rebeccapurple;
+}
+
+.shop_cont li>span:first-of-type {
+    width: 135px;
+    text-align: center;
+    display: block;
+}
+
+.shop_cont li>div:last-of-type {
+    width: 141px;
+    border: 1px solid #eeeeee;
+}
+
+.shop_cont li>div:last-of-type input {
+    float: left;
+    margin: 0;
+    border: none;
+    font-size: 26px;
+}
+
+.shop_cont li>div:last-of-type input[type="submit"]:hover {
+    background-color: #eeeeee;
+}
+
+.shop_cont li>span:nth-of-type(2) {
+    display: block;
+    text-align: center;
+    width: 170px;
+}
+
+.shop_cont li>span:nth-of-type(3) {
+    display: block;
+    text-align: center;
+    width: 80px;
+}
+
+.shop_cont li:last-of-type {
+    border: none;
+}
+
+.shop_buy {
+    padding-left: 20px;
+    width: 1106px;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 30px;
+    height: 46px;
+    background-color: white;
+}
+
+.shop_buy button {
+    width: 180px;
+    height: 46px;
+    border: none;
+    background-color: orangered;
+    font-size: 22px;
+    color: white;
+    float: right;
+}
+
+.shop_buy>p:first-of-type {
+    /* margin-left: -10px; */
+    padding-left: 10px;
+    border-left: 1px solid #eeeeee;
+}
+
+.shop_buy>p:first-of-type span {
+    color: orangered;
+}
+
+.shop_buy>p:last-of-type {
+    color: orangered;
+    margin-right: -380px;
+}
+
+.shop_buy>p:last-of-type span {
+    font-size: 30px;
+}
+
+.shop_buy h3,
+p {
+    float: left;
+}
+
+.shop_buy div {
+    position: absolute;
+    right: 0;
+    top: -70px;
+    width: 180px;
+    height: 45px;
+    color: orangered;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid orangered;
+}
+
+.shop_buy div span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    border-top: 10px solid orangered;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.shop_buy>.buyList {
+    background-color: #666666;
+}
+
+.buyListShow {
+    display: none !important;
+}
