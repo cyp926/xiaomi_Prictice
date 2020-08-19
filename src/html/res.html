@@ -69,7 +69,7 @@
     </div>
 </div>
 
-<script src="../jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <script src="../js/tools.js"></script>
 <script>
     let oSubmit = document.querySelector('form input:last-of-type');
@@ -85,16 +85,6 @@
         oSpan.innerHTML = setRandomNum();
         oSpan.style.color = setRandomColor();
     })
-
-    // oForm.addEventListener('submit', e => {
-    //     e = e || window.event;
-    //     if (e.preventDefault) {
-    //         console.log('asdsa');
-    //         return e.preventDefault();
-    //     } else {
-    //         e.returnValue = true;
-    //     }
-    // });
     let userName = oInputName.value;
     let userPwd = oInputPwd.value;
     let userPwd2 = oInputPwd2.value;
