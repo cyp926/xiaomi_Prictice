@@ -347,7 +347,7 @@
 .news_show li a {
     width: 270px;
     height: 278px;
-    background-color: red;
+    background-color: #444;
     display: block;
     text-align: center;
 }

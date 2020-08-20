@@ -22,7 +22,7 @@
     display: none;
 }
 
-.navs-con>ul li:first-of-type a {
+.navs-con li:first-of-type .smallHand {
     font-weight: bold;
     animation: showColor 1s infinite alternate-reverse;
 }

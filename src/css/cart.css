@@ -232,6 +232,7 @@ overflow: hidden; */
 .shop_cont li .shop_num {
     height: 35px;
     width: 70px;
+    font-size: 18px !important;
 }
 
 .shop_cont li>div:nth-last-of-type(1)>input[type="submit"] {
